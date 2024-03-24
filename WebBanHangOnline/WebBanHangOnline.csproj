@@ -298,9 +298,7 @@
     <Content Include="Content\assets\dist\js\pages\dashboard.js" />
     <Content Include="Content\assets\dist\js\pages\dashboard2.js" />
     <Content Include="Content\assets\dist\js\pages\dashboard3.js" />
-    <Content Include="Content\assets\images\banner_1.jpg" />
-    <Content Include="Content\assets\images\banner_2.jpg" />
-    <Content Include="Content\assets\images\banner_3.jpg" />
+    <Content Include="Content\assets\images\bannerDealOfTheWeek.png" />
     <Content Include="Content\assets\images\blog_1.jpg" />
     <Content Include="Content\assets\images\blog_2.jpg" />
     <Content Include="Content\assets\images\blog_3.jpg" />
@@ -308,6 +306,8 @@
     <Content Include="Content\assets\images\desc_1.jpg" />
     <Content Include="Content\assets\images\desc_2.jpg" />
     <Content Include="Content\assets\images\desc_3.jpg" />
+    <Content Include="Content\assets\images\Logo.jpg" />
+    <Content Include="Content\assets\images\Logo2.png" />
     <Content Include="Content\assets\images\map_marker.png" />
     <Content Include="Content\assets\images\product_1.png" />
     <Content Include="Content\assets\images\product_10.png" />

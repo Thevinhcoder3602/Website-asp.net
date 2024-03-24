@@ -2,12 +2,13 @@
 @if (Model != null)
 {
     var i = 1;
-    <h2>Lich Su Mua Hang</h2>
+    <h2>Lịch Sử Mua Hàng</h2>
     <table class="table table-bordered">
         <thead>
             <tr>
                 <td>STT</td>
-                <td>Mã DH</td>
+                <td>Mã Đơn Hàng</td>
+                <td>Giá</td>
             </tr>
         </thead>
         <tbody>
@@ -16,6 +17,8 @@
                 <tr>
                     <td>@i</td>
                     <td>@item.Code</td>
+                    <td>@String.Format("{0:0.##}", item.TotalAmount)</td>
+
                 </tr>
                 i++;
             }

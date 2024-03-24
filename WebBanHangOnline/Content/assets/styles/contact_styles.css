@@ -532,10 +532,9 @@ section
 3.4 Main Navigation
 *********************************/
 
-.main_nav_container
-{
+.main_nav_container {
 	width: 100%;
-	background: #FFFFFF;
+	background: #4a90e2;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
 }
 .navbar
@@ -622,7 +621,7 @@ section
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #fe4c50;
+	background: #4a90e2;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -814,7 +813,7 @@ section
 }
 .logo_container a span
 {
-	color: #fe4c50;
+	color: #4a90e2;
 }
 .red_button
 {
@@ -828,7 +827,7 @@ section
 	align-items: center;
 	width: auto;
 	height: 40px;
-	background: #fe4c50;
+	background: #4a90e2;
 	border-radius: 3px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -878,7 +877,7 @@ section
 	transform: translateX(-50%);
 	width: 60px;
 	height: 5px;
-	background: #fe4c50;
+	background: #4a90e2;
 	content: '';
 }
 .product_details_title p
@@ -1223,7 +1222,7 @@ textarea:hover
 	width: 160px;
 	height: 46px;
 	border: none;
-	background: #fe4c50;
+	background: #4a90e2;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1269,7 +1268,7 @@ textarea:hover
 }
 .footer_nav li a:hover, .cr a, .cr i
 {
-	color: #fe4c50;
+	color: #4a90e2;
 }
 .footer_social
 {
@@ -1300,5 +1299,5 @@ textarea:hover
 }
 .footer_social ul li a:hover
 {
-	color: #fe4c50;
+	color: #4a90e2;
 }
