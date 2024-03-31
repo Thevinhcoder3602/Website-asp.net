@@ -6,6 +6,6 @@
     "\\WebBanHangOnline\\Views",
     "\\WebBanHangOnline\\Views\\Account"
   ],
-  "SelectedNode": "\\WebBanHangOnline\\Common\\SettingHelper.cs",
+  "SelectedNode": "\\WebBanHangOnline\\Views\\Account\\Login.cshtml",
   "PreviewInSolutionExplorer": false
 }
