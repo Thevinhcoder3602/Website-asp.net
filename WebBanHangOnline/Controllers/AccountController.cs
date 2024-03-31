@@ -9,6 +9,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebBanHangOnline.Models;
+using Google.Api.Gax.ResourceNames;
+using Google.Cloud.RecaptchaEnterprise.V1;
 
 namespace WebBanHangOnline.Controllers
 {
@@ -64,6 +66,7 @@ namespace WebBanHangOnline.Controllers
             return View(item);
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> PostProfile(CreateAccountViewModel req)
@@ -81,7 +84,7 @@ namespace WebBanHangOnline.Controllers
         //
         // GET: /Account/Login
         [AllowAnonymous]
-        public ActionResult Login(string returnUrl)
+        public ActionResult Login(string returnUrl) 
         {
             ViewBag.ReturnUrl = returnUrl;
             return View();

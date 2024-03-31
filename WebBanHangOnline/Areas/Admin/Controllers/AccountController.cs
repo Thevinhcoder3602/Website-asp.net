@@ -58,6 +58,12 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
             var ítems = db.Users.ToList();
             return View(ítems);
         }
+        [HttpPost]
+        public ActionResult Index( FormCollection fc )
+        {
+            var ítems = db.Users.ToList();
+            return View(ítems);
+        }
         //
         // GET: /Account/Login
         [AllowAnonymous]

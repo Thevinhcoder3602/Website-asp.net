@@ -58,11 +58,11 @@ namespace WebBanHangOnline
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "720451042956-luekspdgf9kbl056jikh1b95b137925r.apps.googleusercontent.com",
+                ClientSecret = "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"
+            });
         }
     }
 }
