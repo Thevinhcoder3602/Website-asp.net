@@ -11,6 +11,9 @@ using Microsoft.Owin.Security;
 using WebBanHangOnline.Models;
 using Google.Api.Gax.ResourceNames;
 using Google.Cloud.RecaptchaEnterprise.V1;
+using SendGrid.Helpers.Mail;
+using SendGrid;
+using System.Configuration;
 
 namespace WebBanHangOnline.Controllers
 {
@@ -169,6 +172,9 @@ namespace WebBanHangOnline.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
+
+
+
             return View();
         }
 
@@ -192,7 +198,16 @@ namespace WebBanHangOnline.Controllers
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+                    var apiKey = ConfigurationManager.AppSettings["SendGridApiKey"];
+                    var client = new SendGridClient(apiKey);
 
+                    var from = new EmailAddress("dangvykhoi@gmail.com", "Dang Vy Khoi");
+                    var subject = "Register web";
+                    var to = new EmailAddress(model.Email.ToString(), "sdsdsd");
+                    var plainTextContent = "You have successfully registered";
+                    var htmlContent = "<strong>Register web</strong>";
+                    var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
+                    var response = await client.SendEmailAsync(msg);
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);

@@ -5,7 +5,16 @@
 }
 
 <script src="https://www.google.com/recaptcha/api.js"></script>
-
+<script>
+    function onClick(event) {
+        var response = grecaptcha.getResponse();
+        if (response.length === 0) {
+            // Không có reCAPTCHA được chọn, không cho phép đăng nhập
+            alert("Vui lòng xác nhận bạn không phải là robot trước khi đăng nhập.");
+            event.preventDefault(); // Ngăn chặn sự kiện mặc định
+        }
+    }
+</script>
 <link rel="stylesheet" type="text/css" href="~/Content/assets/styles/main_styles.css">
 
 <div class="container" style="margin-top:160px">

@@ -429,3 +429,13 @@ D:\Website-asp.net\WebBanHangOnline\bin\System.Net.Http.Json.xml
 D:\Website-asp.net\WebBanHangOnline\bin\System.Text.Encodings.Web.xml
 D:\Website-asp.net\WebBanHangOnline\bin\System.Text.Json.xml
 D:\Website-asp.net\WebBanHangOnline\bin\hbehr.recaptcha.dll
+D:\Website-asp.net\WebBanHangOnline\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Website-asp.net\WebBanHangOnline\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Website-asp.net\WebBanHangOnline\bin\Microsoft.Extensions.Primitives.dll
+D:\Website-asp.net\WebBanHangOnline\bin\SendGrid.dll
+D:\Website-asp.net\WebBanHangOnline\bin\StarkbankEcdsa.dll
+D:\Website-asp.net\WebBanHangOnline\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Website-asp.net\WebBanHangOnline\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Website-asp.net\WebBanHangOnline\bin\Microsoft.Extensions.Primitives.xml
+D:\Website-asp.net\WebBanHangOnline\bin\SendGrid.pdb
+D:\Website-asp.net\WebBanHangOnline\bin\SendGrid.xml
